@@ -1,0 +1,14 @@
+<configuration>
+
+    <property name="defaultPattern" value="[%level] [%date{ISO8601}] [%thread] %msg%n"/>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${defaultPattern}</pattern>
+        </encoder>
+    </appender>
+
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
