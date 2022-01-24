@@ -33,9 +33,9 @@ public class UiTests {
     public void openCopart() {
         logger.info("Starting test ");
         VehicleFinder finder = new VehicleFinder();
+
         finder.openPage()
                 .selectMake("Acura")
                 .selectYears("2015", "2019");
-
     }
 }
