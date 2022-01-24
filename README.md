@@ -1,4 +1,4 @@
 # qaTest
 
-You need Java 11
-Gradle
+- You need Java 11
+- Gradle
